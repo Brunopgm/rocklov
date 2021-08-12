@@ -1,11 +1,12 @@
 Dado('que acesso a página de cadastro') do
-    visit "http://rocklov-web:3000/signup"
+    @signup_page.open
 end
+
+Quando('submeto o seguinte formulário de cadastro') do |table|
+    user = table.hashes.first #O hashes transforma a tabela em um array de objetos
+    MongoDB.new.remove_user(user[:email])  
+    @signup_page.create(user)
+end
+
   
-Quando('submeto o meu cadastro completo') do
-    pending # Write code here that turns the phrase above into concrete actions
-end
-  
-Então('sou redirecionado para o Dashboard') do
-    pending # Write code here that turns the phrase above into concrete actions
-end
+

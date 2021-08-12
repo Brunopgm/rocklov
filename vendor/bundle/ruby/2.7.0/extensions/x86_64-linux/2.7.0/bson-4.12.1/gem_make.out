@@ -1,0 +1,21 @@
+current directory: /home/brunopgm/Documentos/QA/QA rock-lov/rocklov/vendor/bundle/ruby/2.7.0/gems/bson-4.12.1/ext/bson
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20210729-10212-oegsal.rb extconf.rb
+creating Makefile
+
+current directory: /home/brunopgm/Documentos/QA/QA rock-lov/rocklov/vendor/bundle/ruby/2.7.0/gems/bson-4.12.1/ext/bson
+make "DESTDIR=" clean
+
+current directory: /home/brunopgm/Documentos/QA/QA rock-lov/rocklov/vendor/bundle/ruby/2.7.0/gems/bson-4.12.1/ext/bson
+make "DESTDIR="
+compiling bytebuf.c
+compiling endian.c
+compiling init.c
+compiling libbson-utf8.c
+compiling read.c
+compiling util.c
+compiling write.c
+linking shared-object bson_native.so
+
+current directory: /home/brunopgm/Documentos/QA/QA rock-lov/rocklov/vendor/bundle/ruby/2.7.0/gems/bson-4.12.1/ext/bson
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bson_native.so ./.gem.20210729-10212-151wbk7

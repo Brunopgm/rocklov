@@ -2,7 +2,12 @@
 
 source "https://rubygems.org"
 
+gem 'allure-cucumber', '2.14.3'
 gem 'cucumber', '5.2'
 gem 'capybara', '3.33'
+gem 'selenium-webdriver', '3.142.7'
+gem 'rspec', '3.10'
+gem 'faker', '2.18'
+gem 'mongo', '2.15'
 
 
