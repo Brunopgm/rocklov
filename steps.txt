@@ -1,0 +1,3 @@
+Finalizar Front-end II
+Criar README
+Criar documentação para criar um projeto e as principais gems utilizadas
