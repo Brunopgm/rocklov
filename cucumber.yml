@@ -3,4 +3,5 @@ default: --publish-quiet -p allure -p bdd
 bdd: -f pretty
 dots: -f progress
 html: -f html -o logs/reports.html
-allure: --format AllureCucumber::CucumberFormatter --out=logs
+allure: --format AllureCucumber::CucumberFormatter --out=logs #https://docs.qameta.io/allure/
+#Com o allure instalado rodar allure serve logs(nome da pasta)

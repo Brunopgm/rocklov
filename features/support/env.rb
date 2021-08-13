@@ -12,6 +12,6 @@ end
 #Por padrão se deixar somente o :selenium  o capybara iria executar a automação no firefox
 
 AllureCucumber.configure do |config|
-    config.result_directory = "/logs"
+    config.results_directory = "/logs"
     config.clean_results_directory = true
 end
